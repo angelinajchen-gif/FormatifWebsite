@@ -1,0 +1,142 @@
+<html>
+<head>
+     <title>Register - FoodMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="main-header">
+        <div class="header-top">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">
+                    <h1>FoodMarket</h1>
+                    <span>Fresh & Delicious</span>
+                </div>
+            </a>
+            <div class="header-actions">
+                <button class="cart-btn">
+                     Keranjang <span class="cart-count">0</span>
+                </button>
+                <a href="register.html" class="register-btn">
+                     Register
+                </a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link"> Home</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Makanan Indonesia</a>
+                    <ul class="dropdown">
+                        <li><a href="nasi.html"> Aneka Nasi</a></li>
+                        <li><a href="mie.html"> Aneka Mie</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Makanan Western</a>
+                    <ul class="dropdown">
+                        <li><a href="burger.html"> Burger & Sandwich</a></li>
+                        <li><a href="steak.html"> Steak & Grill</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Makanan Asian</a>
+                    <ul class="dropdown">
+                        <li><a href="sushi.html"> Sushi & Sashimi</a></li>
+                        <li><a href="ramen.html"> Ramen & Udon</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Dessert</a>
+                    <ul class="dropdown">
+                        <li><a href="cake.html"> Cake & Pastry</a></li>
+                        <li><a href="ice-cream.html"> Ice Cream</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"> Minuman</a>
+                    <ul class="dropdown">
+                        <li><a href="coffee.html"> Coffee</a></li>
+                        <li><a href="juice.html"> Juice & Smoothies</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="register-section">
+        <div class="register-container">
+            <h2> Daftar Akun</h2>
+            <p class="subtitle">Bergabung dengan FoodMarket untuk nikmati promo eksklusif!</p>
+            
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="fullname">Nama Lengkap</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap Anda" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0812-3456-7890" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Minimal 8 karakter" required minlength="8">
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm">Konfirmasi Password</label>
+                    <input type="password" id="confirm" name="confirm" placeholder="Ulangi password" required>
+                </div>
+                
+                <button type="submit" class="btn-submit"> Daftar Sekarang</button>
+            </form>
+            
+            <p class="login-link">
+                Sudah punya akun? <a href="#">Login di sini</a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3> FoodMarket</h3>
+                <p>Platform e-commerce makanan terpercaya dengan berbagai pilihan kuliner dari seluruh dunia.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nasi.html">Makanan Indonesia</a></li>
+                    <li><a href="burger.html">Makanan Western</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Lainnya</h4>
+                <ul>
+                    <li><a href="sushi.html">Makanan Asian</a></li>
+                    <li><a href="cake.html">Dessert</a></li>
+                    <li><a href="coffee.html">Minuman</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Kontak</h4>
+                <p> Jl. Sudirman No. 123, Jakarta</p>
+                <p> +62 812-3456-7890</p>
+                <p> hello@foodmarket.id</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2026 FoodMarket. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
